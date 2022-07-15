@@ -1,0 +1,19 @@
+div.ActivityCard {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+	padding: 1%;
+	border-radius: 5%;
+	margin: 1%;
+}
+
+img.ActivityCard {
+	max-height: 50px;
+	max-width: 50px;
+	border-radius: 5%;
+}

@@ -1,0 +1,32 @@
+div.Tarjeta {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+	padding: 1%;
+	border-radius: 5%;
+	margin: 1%;
+	border-style: solid;
+	border-width: 2.5px;
+	border-color: whitesmoke;
+}
+div.Tarjeta:hover {
+	border-style: solid;
+	border-width: 5px;
+	border-color: burlywood;
+}
+img.Tarjeta {
+	max-height: 20vh;
+	max-width: 20vh;
+	border-radius: 5%;
+}
+a.Tarjeta {
+	color: rgb(200, 200, 255);
+}
+a.Tarjeta:hover {
+	color: rgb(100, 100, 255);
+}

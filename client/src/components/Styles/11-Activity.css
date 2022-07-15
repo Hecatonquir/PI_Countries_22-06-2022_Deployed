@@ -1,0 +1,17 @@
+main.activity {
+	background-image: url('https://antbikemike.com/wp-content/uploads/2020/12/6274c147e9c03e2a7a7e741551c047ee-1.jpg');
+	min-width: 100%;
+	min-height: 100vh;
+	background-size: cover;
+	background-position: 50%;
+	background-repeat: no-repeat;
+}
+
+h2.actividades {
+	background-color: rgba(255, 229, 127, 0.9);
+	font-weight: bolder;
+	width: fit-content;
+	margin: auto;
+	padding: 0.5%;
+	border-radius: 5px;
+}

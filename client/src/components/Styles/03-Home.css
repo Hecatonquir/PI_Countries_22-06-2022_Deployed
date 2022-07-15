@@ -1,0 +1,45 @@
+main.home {
+	background-image: url('https://media.wired.com/photos/5cfee91f6874e07b8aefb667/master/w_1600,c_limit/earth.gif');
+	min-width: 100%;
+	min-height: 100vh;
+	background-size: cover;
+	background-position: 50%;
+	background-repeat: no-repeat;
+}
+.Tarjetas {
+	display: grid;
+	grid-template-rows: 40vh 40vh 40vh;
+	grid-template-columns: 40vh 40vh 40vh;
+	width: 70%;
+	margin: auto;
+}
+h2.loading {
+	background-color: beige;
+	width: fit-content;
+	margin: auto;
+}
+h2.notFound {
+	background-color: #fec896a8;
+	width: fit-content;
+	margin: auto;
+}
+h1.home {
+	background-color: #efb190b2;
+	width: fit-content;
+	margin: auto;
+}
+
+div.filtros {
+	background-color: #000000a1;
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: stretch;
+	border-radius: 15px;
+	padding-bottom: 1%;
+	color: antiquewhite;
+	font-weight: bolder;
+}

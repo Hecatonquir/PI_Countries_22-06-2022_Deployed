@@ -1,0 +1,75 @@
+main.mainCrear {
+	background-image: url('https://www.ontarioparks.com/parksblog/wp-content/uploads/2018/03/Untitled-design-36-825x510.jpg');
+	min-width: 100%;
+	min-height: 100vh;
+	background-size: cover;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap-reverse;
+	justify-content: center;
+	align-items: center;
+	align-content: normal;
+}
+div.Crear {
+	background-color: rgba(255, 255, 255, 0.75);
+	border-radius: 5%;
+	width: 50vh;
+	height: 60vh;
+}
+ul.checkbox {
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: stretch;
+	margin: 0px;
+	padding: 0%;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+li.checkbox {
+	display: inline;
+}
+
+p.verif {
+	background-color: rgb(11, 11, 10);
+	color: tomato;
+	font-size: 30px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: normal;
+	width: fit-content;
+	margin: auto;
+}
+div.div2 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: normal;
+}
+label {
+	font-size: 20px;
+	font-weight: bolder;
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+}
+form.Crear {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: normal;
+	margin: 0px;
+	padding: 0%;
+}
+ul {
+	list-style-type: none;
+}
