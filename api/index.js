@@ -22,7 +22,7 @@ const { conn } = require('./src/db.js');
 const { loadAllCountries } = require('./src/functions');
 
 // Syncing all the models at once.false
-conn.sync({ force: true }).then(() => {
+conn.sync({ force: false }).then(() => {
 	server.listen(process.env.PORT, async () => {
 		console.log(`%s listening at ${process.env.PORT}`);
 		await loadAllCountries();
