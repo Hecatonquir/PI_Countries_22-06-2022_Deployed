@@ -7,7 +7,7 @@ import Navbar from './components/04-NavBar';
 import Detail from './components/09-Detail';
 import Create from './components/10-Create';
 import Activities from './components/11-Activities';
-
+/*  */
 function App() {
 	return (
 		<div className='App'>
