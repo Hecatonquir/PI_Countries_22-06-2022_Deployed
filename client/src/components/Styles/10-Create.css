@@ -1,10 +1,11 @@
 main.mainCrear {
-	background-image: url('https://www.ontarioparks.com/parksblog/wp-content/uploads/2018/03/Untitled-design-36-825x510.jpg');
-	min-width: 100%;
+	background-image: url("https://i.pinimg.com/564x/db/28/86/db28869fe8328d3cabb4713c9f036f01.jpg");
+	max-width: 100%;
 	min-height: 100vh;
-	background-size: cover;
-	background-position: 50%;
-	background-repeat: no-repeat;
+	max-height: 100%;
+	background-size: contain;
+	/* background-position: 50%; */
+	/* background-repeat: no-repeat; */
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap-reverse;

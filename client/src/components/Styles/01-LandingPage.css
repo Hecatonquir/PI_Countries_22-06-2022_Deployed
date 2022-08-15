@@ -12,9 +12,10 @@ main.landing {
 }
 h1.landing {
 	color: white;
-	background-color: rgba(95, 158, 160, 0.8);
-	width: fit-content;
+	background-color: rgb(210, 186, 79);
+	width: 40%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border-radius: 10px;
 }

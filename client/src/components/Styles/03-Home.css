@@ -1,10 +1,11 @@
 main.home {
-	background-image: url("https://www.jigsawexplorer.com/puzzles/subjects/charting-course-768x702.jpg");
-	width: 100%;
-	height: 100%;
-	background-size: cover;
+	background-image: url("https://i.pinimg.com/564x/9b/a6/74/9ba674a45ae0de4359ebc86905d25872.jpg");
+	/* 	width: 100%;
+	height: 100vh; */
+	min-height: 100vh;
+	background-size: contain;
 	background-position: 50%;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 }
 .Tarjetas {
 	display: grid;
@@ -19,9 +20,11 @@ h2.loading {
 	margin: auto;
 }
 h2.notFound {
-	background-color: #fec896a8;
+	background-color: #ffffffa8;
 	width: fit-content;
 	margin: auto;
+	border-radius: 10px;
+	width: 30%;
 }
 h1.home {
 	background-color: #efb190b2;
