@@ -20,11 +20,12 @@ h2.loading {
 	margin: auto;
 }
 h2.notFound {
-	background-color: #ffffffa8;
+	background-color: hsla(0, 0%, 100%, 0.9);
 	width: fit-content;
 	margin: auto;
 	border-radius: 10px;
 	width: 30%;
+	font-size: 50px;
 }
 h1.home {
 	background-color: #efb190b2;
