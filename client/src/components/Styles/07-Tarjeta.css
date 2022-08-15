@@ -17,7 +17,8 @@ div.Tarjeta {
 div.Tarjeta:hover {
 	border-style: solid;
 	border-width: 5px;
-	border-color: burlywood;
+	border-color: rgba(255, 225, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.6);
 }
 img.Tarjeta {
 	max-height: 20vh;

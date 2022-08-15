@@ -1,7 +1,7 @@
 main.home {
-	background-image: url('https://media.wired.com/photos/5cfee91f6874e07b8aefb667/master/w_1600,c_limit/earth.gif');
-	min-width: 100%;
-	min-height: 100vh;
+	background-image: url("https://www.jigsawexplorer.com/puzzles/subjects/charting-course-768x702.jpg");
+	width: 100%;
+	height: 100%;
 	background-size: cover;
 	background-position: 50%;
 	background-repeat: no-repeat;

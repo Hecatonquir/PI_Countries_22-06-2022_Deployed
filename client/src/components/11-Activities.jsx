@@ -1,9 +1,10 @@
-import React from 'react';
-import { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import * as A from '../Redux/actions';
-import './Styles/11-Activity.css';
-import ActivityCard from './13-T.Activity';
+import React from "react";
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import * as A from "../Redux/actions";
+import "./Styles/11-Activity.css";
+import ActivityCard from "./13-T.Activity";
+import Navbar from "./04-NavBar";
 
 export default function Activities() {
 	const dispatch = useDispatch();
@@ -16,13 +17,14 @@ export default function Activities() {
 	const countriesWithActivities = AllCountries.filter((c) => c.tourisms.length !== 0);
 
 	return (
-		<main className='activity'>
-			<div className='activity'>
+		<main className="activity">
+			<Navbar />
+			<div className="activity">
 				<br />
 				<br />
 				<br />
 				{countriesWithActivities.length ? (
-					<section className='Tarjetas'>
+					<section className="Tarjetas">
 						{countriesWithActivities.map((country) => {
 							return country.tourisms.map((to) => {
 								return (
@@ -41,7 +43,7 @@ export default function Activities() {
 						})}
 					</section>
 				) : (
-					<h2 className='actividades'>No se encontraron Actividades</h2>
+					<h2 className="actividades">No se encontraron Actividades</h2>
 				)}
 			</div>
 		</main>
