@@ -12,7 +12,7 @@ import './Styles/03-Home.css';
 
 export default function Home() {
 	const dispatch = useDispatch();
-	let countriesState = 0; //useSelector((state) => state.countries);
+	let countriesState = useSelector((state) => state.countries);
 	countriesState?.length ? (
 		typeof countriesState != 'string' ? (
 			countriesState.map((c) => {
