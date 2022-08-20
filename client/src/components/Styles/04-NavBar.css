@@ -1,16 +1,14 @@
-nav.navBar {
-}
 
 ul.navBar {
 	position: fixed;
 	width: auto;
 	padding: 10px;
 	border: 3px solid #2b2d32;
-	background-color: #fff0c0d2;
+	background-color: beige;
 	left: 50%;
 	top: -2.1%;
 	margin-left: -250px;
-	border-radius: 10px;
+	border-radius: 10px;	
 }
 
 li.navBar {

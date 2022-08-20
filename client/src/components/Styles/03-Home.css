@@ -1,5 +1,5 @@
 main.home {
-	background-image: url("https://i.pinimg.com/564x/9b/a6/74/9ba674a45ae0de4359ebc86905d25872.jpg");
+	background-image: url('https://i.pinimg.com/564x/9b/a6/74/9ba674a45ae0de4359ebc86905d25872.jpg');
 	/* 	width: 100%;
 	height: 100vh; */
 	min-height: 100vh;
@@ -16,8 +16,12 @@ main.home {
 }
 h2.loading {
 	background-color: beige;
-	width: fit-content;
-	margin: auto;
+	width: 10%;
+	margin: 2rem;
+	padding: 2rem;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
 }
 h2.notFound {
 	background-color: hsla(0, 0%, 100%, 0.9);
@@ -46,4 +50,17 @@ div.filtros {
 	padding-bottom: 1%;
 	color: antiquewhite;
 	font-weight: bolder;
+}
+
+img.loading {
+	border-radius: 10px;
+	width: 30rem;
+	height: 30rem;
+}
+
+div.loading {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
